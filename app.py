@@ -3,7 +3,7 @@ import joblib
 import pandas as pd 
 
 model = joblib.load('TicketClassifier.pkl') # Assuming this is your best model
-scaler = joblib.load('scaler.pkl')
+scaler = joblib.load('Scaler.pkl')
 
 st.title('Ticket Category Prediction Web App')
 st.text('This is a simple web app to predict ticket categories using a pre-trained machine learning model.')
